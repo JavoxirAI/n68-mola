@@ -1,0 +1,25 @@
+# django proyekt boshlash, nuqta bu turgan joyimni ifodalash uchun qo'yilgan
+django-admin startproject core .
+
+# proyektni ishga tushurish
+python manage.py runserver
+
+# app yaratish uchun komanda
+python manage.py startapp <app_name>
+
+
+{% static '$0' %}
+
+
+(css/[a-z0-9/.-]+)
+
+(js/[a-z0-9/.-]+)
+
+(image/[a-z0-9/.-]+)
+
+
+{% extends 'layout/base.html'%}
+{% load static %}
+{% block content %}
+
+{% endblock %}
